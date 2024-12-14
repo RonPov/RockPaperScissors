@@ -14,3 +14,10 @@ function getComputerChoice() {
         return 'Scissors'
     }
 }
+
+
+function getHumanChoice() {
+    const choice = window.prompt('What did you choose?')
+
+    return choice
+}
